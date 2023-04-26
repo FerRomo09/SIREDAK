@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>KUESKI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <section id="home">
+        <header>
+            <a href="#"><img id="logo" src="images/logo.png" alt=""></a>
+            <ul id="menu">
+                <!--<li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li> -->
+
+                <div class="dropdown">
+                    <i class="fa-solid fa-bars fa-2xl" style="color: #c5f40a;"></i>
+                    <div class="dropdown-content">
+                    <a href="#">E-mal</a>
+                    <a href="#">Celular</a>
+                    <a href="#">CURP</a>
+                    </div>
+                </div>
+
+                <div class="buscar">
+                    <input type="text" placeholder="busqueda" required>
+                    <div class="btn">
+                        <i class="fas fa-search icon"></i>
+                    </div>
+                </div>
+                <li><img id="user" src="images/usuario.png" alt=""></li>
+            </ul>
+        </header>
+        <table>
+            <tr>
+                <th>Id Usuario</th>
+                <th>E-mail</th>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <th>CURP</th>
+                <th>RFC</th>
+                <th>ARCO</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>fernandaeliromo@gmail.com</td>
+                    <td>Fernanda</td>
+                    <td>Romo</td>
+                    <td>Alarcon</td>
+                    <td>FEAF771012HMCRGR08</td>
+                    <td>MELM8305281H0</td>
+                    <td> 
+                        <div class="desplazo">
+                            <i class="fa-solid fa-square-caret-down" style="color: #05BFDB;"></i>
+                            <div class="desplazo-content">
+                                <a data-modal-target="#modal" href="#">Acceso</a>
+                                <a data-modal-target="#modal" href="#">Rectificacion</a>
+                                <a data-modal-target="#modal" href="#">Cancelacion</a>
+                                <a data-modal-target="#modal" href="#">Oposicion</a>
+                                <div class="modal" id="modal">
+                                    <div class="modal-header">
+                                        <div class="title">Acceso</div>
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo, rem dignissimos eaque necessitatibus exercitationem ratione inventore hic quis sunt?
+                                    </div>
+                                </div>
+                                <div  id="overlay"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>jacobohirsch@gmail.com</td>
+                    <td>Jacobo</td>
+                    <td>Hirsch</td>
+                    <td>Rodriguez</td>
+                    <td>JEAF771012HMCRGR09</td>
+                    <td>RELM8305281H7</td>
+                    <td>
+                        <div class="desplazo">
+                            <i class="fa-solid fa-square-caret-down" style="color: #05BFDB;"></i>
+                            <div class="desplazo-content">
+                                <a data-modal-target="#modal" href="#">Acceso</a>
+                                <a data-modal-target="#modal" href="#">Rectificacion</a>
+                                <a data-modal-target="#modal" href="#">Cancelacion</a>
+                                <a data-modal-target="#modal" href="#">Oposicion</a>
+                                <div class="modal" id="modal">
+                                    <div class="modal-header">
+                                        <div class="title">Acceso</div>
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo, rem dignissimos eaque necessitatibus exercitationem ratione inventore hic quis sunt?
+                                    </div>
+                                </div>
+                                <div  id="overlay"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>andreaespindola@gmail.com</td>
+                    <td>Alejandra</td>
+                    <td>Espindola</td>
+                    <td>Gomez</td>
+                    <td>AEAF771012HMCRGR09</td>
+                    <td>BELM8305281H5</td>
+                    <td> 
+                        <div class="desplazo">
+                            <i class="fa-solid fa-square-caret-down" style="color: #05BFDB;"></i>
+                            <div class="desplazo-content">
+                                <a data-modal-target="#modal" href="#">Acceso</a>
+                                <a data-modal-target="#modal" href="#">Rectificacion</a>
+                                <a data-modal-target="#modal" href="#">Cancelacion</a>
+                                <a data-modal-target="#modal" href="#">Oposicion</a>
+                                <div class="modal" id="modal">
+                                    <div class="modal-header">
+                                        <div class="title">Acceso</div>
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo, rem dignissimos eaque necessitatibus exercitationem ratione inventore hic quis sunt?
+                                    </div>
+                                </div>
+                                <div  id="overlay"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>fernandaeliromo@gmail.com</td>
+                    <td>Fernanda</td>
+                    <td>Romo</td>
+                    <td>Alarcon</td>
+                    <td>FEAF771012HMCRGR08</td>
+                    <td>MELM8305281H0</td>
+                    <td> 
+                        <div class="desplazo">
+                            <i class="fa-solid fa-square-caret-down" style="color: #05BFDB;"></i>
+                            <div class="desplazo-content">
+                                <a data-modal-target="#modal" href="#">Acceso</a>
+                                <a data-modal-target="#modal" href="#">Rectificacion</a>
+                                <a data-modal-target="#modal" href="#">Cancelacion</a>
+                                <a data-modal-target="#modal" href="#">Oposicion</a>
+                                <div class="modal" id="modal">
+                                    <div class="modal-header">
+                                        <div class="title">Acceso</div>
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo, rem dignissimos eaque necessitatibus exercitationem ratione inventore hic quis sunt?
+                                    </div>
+                                </div>
+                                <div  id="overlay"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>jacobohirsch@gmail.com</td>
+                    <td>Jacobo</td>
+                    <td>Hirsch</td>
+                    <td>Rodriguez</td>
+                    <td>JEAF771012HMCRGR09</td>
+                    <td>RELM8305281H7</td>
+                    <td>
+                        <div class="desplazo">
+                            <i class="fa-solid fa-square-caret-down" style="color: #05BFDB;"></i>
+                            <div class="desplazo-content">
+                                <a data-modal-target="#modal" href="#">Acceso</a>
+                                <a data-modal-target="#modal" href="#">Rectificacion</a>
+                                <a data-modal-target="#modal" href="#">Cancelacion</a>
+                                <a data-modal-target="#modal" href="#">Oposicion</a>
+                                <div class="modal" id="modal">
+                                    <div class="modal-header">
+                                        <div class="title">Acceso</div>
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo, rem dignissimos eaque necessitatibus exercitationem ratione inventore hic quis sunt?
+                                    </div>
+                                </div>
+                                <div  id="overlay"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>andreaespindola@gmail.com</td>
+                    <td>Alejandra</td>
+                    <td>Espindola</td>
+                    <td>Gomez</td>
+                    <td>AEAF771012HMCRGR09</td>
+                    <td>BELM8305281H5</td>
+                    <td> 
+                        <div class="desplazo">
+                            <i class="fa-solid fa-square-caret-down" style="color: #05BFDB;"></i>
+                            <div class="desplazo-content">
+                                <a data-modal-target="#modal" href="#">Acceso</a>
+                                <a data-modal-target="#modal" href="#">Rectificacion</a>
+                                <a data-modal-target="#modal" href="#">Cancelacion</a>
+                                <a data-modal-target="#modal" href="#">Oposicion</a>
+                                <div class="modal" id="modal">
+                                    <div class="modal-header">
+                                        <div class="title">Acceso</div>
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo, rem dignissimos eaque necessitatibus exercitationem ratione inventore hic quis sunt?
+                                    </div>
+                                </div>
+                                <div  id="overlay"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>fernandaeliromo@gmail.com</td>
+                    <td>Fernanda</td>
+                    <td>Romo</td>
+                    <td>Alarcon</td>
+                    <td>FEAF771012HMCRGR08</td>
+                    <td>MELM8305281H0</td>
+                    <td> 
+                        <div class="desplazo">
+                            <i class="fa-solid fa-square-caret-down" style="color: #05BFDB;"></i>
+                            <div class="desplazo-content">
+                                <a data-modal-target="#modal" href="#">Acceso</a>
+                                <a data-modal-target="#modal" href="#">Rectificacion</a>
+                                <a data-modal-target="#modal" href="#">Cancelacion</a>
+                                <a data-modal-target="#modal" href="#">Oposicion</a>
+                                <div class="modal" id="modal">
+                                    <div class="modal-header">
+                                        <div class="title">Acceso</div>
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo, rem dignissimos eaque necessitatibus exercitationem ratione inventore hic quis sunt?
+                                    </div>
+                                </div>
+                                <div  id="overlay"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>jacobohirsch@gmail.com</td>
+                    <td>Jacobo</td>
+                    <td>Hirsch</td>
+                    <td>Rodriguez</td>
+                    <td>JEAF771012HMCRGR09</td>
+                    <td>RELM8305281H7</td>
+                    <td>
+                        <div class="desplazo">
+                            <i class="fa-solid fa-square-caret-down" style="color: #05BFDB;"></i>
+                            <div class="desplazo-content">
+                                <a data-modal-target="#modal" href="#">Acceso</a>
+                                <a data-modal-target="#modal" href="#">Rectificacion</a>
+                                <a data-modal-target="#modal" href="#">Cancelacion</a>
+                                <a data-modal-target="#modal" href="#">Oposicion</a>
+                                <div class="modal" id="modal">
+                                    <div class="modal-header">
+                                        <div class="title">Acceso</div>
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo, rem dignissimos eaque necessitatibus exercitationem ratione inventore hic quis sunt?
+                                    </div>
+                                </div>
+                                <div  id="overlay"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>andreaespindola@gmail.com</td>
+                    <td>Alejandra</td>
+                    <td>Espindola</td>
+                    <td>Gomez</td>
+                    <td>AEAF771012HMCRGR09</td>
+                    <td>BELM8305281H5</td>
+                    <td> 
+                        <div class="desplazo">
+                            <i class="fa-solid fa-square-caret-down" style="color: #05BFDB;"></i>
+                            <div class="desplazo-content">
+                                <a data-modal-target="#modal" href="#">Acceso</a>
+                                <a data-modal-target="#modal" href="#">Rectificacion</a>
+                                <a data-modal-target="#modal" href="#">Cancelacion</a>
+                                <a data-modal-target="#modal" href="#">Oposicion</a>
+                                <div class="modal" id="modal">
+                                    <div class="modal-header">
+                                        <div class="title">Acceso</div>
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo, rem dignissimos eaque necessitatibus exercitationem ratione inventore hic quis sunt?
+                                    </div>
+                                </div>
+                                <div  id="overlay"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="about">
+        <h1>ABOUT</h1>
+    </section>
+    <section id="contact">
+        <h1>CONTACT</h1>
+    </section>
+</body>
+</html>

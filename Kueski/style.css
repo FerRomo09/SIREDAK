@@ -1,0 +1,293 @@
+/*PRIMERA SECCION*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*Para que el scroll sea mas lento*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed; /*fija la pagina cuando haces scroll*/
+    z-index: 999; /*fija el header del menu cuando haces scroll*/
+}
+
+
+#logo{
+    width: 200px;
+    margin: 25px;
+    
+}
+
+#user{
+    width: 70px;
+}
+
+/*css reset*/
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/*Scroll de la pagina*/
+section{
+    width: 100%;
+    float: left;
+    height: 100vh; /*cambia el tamano de cada pagina scroll*/
+    position: relative;
+}
+
+#home{
+    
+    background-color: #0A4D68;
+
+}
+
+#about{
+    background-color: #088395 ;
+
+}
+
+#contact{
+    background-color: #05BFDB;
+
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+/*color hunt palette*/
+
+/*buscador*/
+
+.buscar{
+    position: absolute;
+    padding: 5px;
+    top: 80%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+
+/*diseño del cuadro de buscar*/
+.buscar input{
+    width: 500px;
+    height: 40px;
+    padding: 0 20px; /*moviendo el texto*/
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(4, 4, 140);
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease; /*para alentar la transicion*/
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #440080;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*para que aparezca el buscador al posicionar el cursor en el icono busqueda*/
+
+.buscar:hover input{
+    width: 600px;
+}
+
+.buscar input:focus{
+    width: 400px;
+}
+
+
+/*menu desplegable*/
+
+.dropdown{
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    padding: 5px;
+    top: 80%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.dropdown-content{
+    background-color: grey;
+    display: none;
+    position: absolute;
+    width: 120px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px white;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    color: #c21c1c;
+    background-color: rgb(219, 192, 255);
+}
+
+/*tabla*/
+table{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+ 
+
+}
+
+table, td{
+    background-color: white;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th{
+    background-color: #088395;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.desplazo {
+    width: 150px;
+    position: relative;
+    left: 60px;
+    
+}
+
+.desplazo-content {
+display: none;
+position: relative;
+width: 100%;
+overflow: auto;
+background-color: whitesmoke;
+box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.desplazo:hover .desplazo-content {
+display: block;
+}
+
+.desplazo-content a {
+display: block;
+color: #000000;
+padding: 5px;
+text-decoration: none;
+}
+
+.desplazo-content a:hover {
+color: #FFFFFF;
+background-color: #00A4BD;
+}
+
+
+/*VENTANA*/
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(0); /*situa todo en el centro*/
+    transition: 200ms ease-in-out;
+    border: 1px solid black; /*englobando todo example*/
+    border-radius: 10px;
+    z-index: 10; /*para superponer nuestro elemento con otros*/
+    background-color: white;
+    width: 250px;
+    max-width: 80%;
+}
+
+.modal.active{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.modal-header{
+    padding: 10px 15px; /*sets the padding area on all four sides of an element at once*/
+    display: flex; /*nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la pantalla para estructurar nuestra página web. solo puedes manejar una dimensión, tienes que elegir entre filas o columnas*/
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+/*boton de cerrado*/
+.modal-header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* "margen" del texto dentro de la caja */
+.modal-body{
+    padding: 10px 15px;
+}
+
+/* fondo */
+#overlay{
+    position: fixed;
+    opacity:0; 
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    pointer-events: none;
+}
+
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+}
