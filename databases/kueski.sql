@@ -30,7 +30,7 @@ create table direccion(
     d_numext VARCHAR(5),
     d_numint VARCHAR(5),
     u_id SMALLINT NOT NULL,
-    d_access VARCHAR(9) check(d_access regexp '^[0-1]{9}$'),
+    d_access BOOL,
     PRIMARY KEY(d_id),
 	FOREIGN KEY(u_id) REFERENCES usuario(u_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
@@ -40,7 +40,7 @@ create table identificaciones(
     id_num SMALLINT,
 	i_tipo VARCHAR(20),
     u_id SMALLINT NOT NULL,
-    i_access VARCHAR(3) check(i_access regexp '^[0-1]{3}$'),
+    i_access BOOL,
     PRIMARY KEY(i_id),
     FOREIGN KEY(u_id) REFERENCES usuario(u_id)
 );
