@@ -3,7 +3,7 @@ create database if not exists kueski;
 use kueski;
 
 create table usuario(
-	u_id SMALLINT NOT NULL check(u_id regexp '^[0-9]$'),
+	u_id SMALLINT NOT NULL,
     u_nombre VARCHAR(20),
     u_papellido VARCHAR(20),
     u_sapellido VARCHAR(20),
@@ -15,7 +15,7 @@ create table usuario(
     u_celular VARCHAR(15) check(u_celular regexp '^[0-9]{10}'), 
     u_email VARCHAR(50) ,
     u_escliente BOOL,
-    u_access VARCHAR(12) check(u_access regexp '^[0-1]{12}'),
+    u_access VARCHAR(11) check(u_access regexp '^[0-1]{11}'),
     PRIMARY KEY (u_id)
 );
 
@@ -32,7 +32,7 @@ create table direccion(
     u_id SMALLINT NOT NULL,
     d_access BOOL,
     PRIMARY KEY(d_id),
-	FOREIGN KEY(u_id) REFERENCES usuario(u_id) ON DELETE CASCADE ON UPDATE CASCADE
+	FOREIGN KEY(u_id) REFERENCES usuario(u_id)
 );
 
 create table identificaciones(
