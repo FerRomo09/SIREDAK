@@ -1,26 +1,80 @@
 use kueski;
-/*usuario*/
-INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (1, 'Fernanda', 'Romo', 'Alarcon', '2000-01-01', 'mexicana', 'Jalisco', 'FEAF771012HMCRGR08', 'F', '32259874256', 'fernandaeliromo@gmail.com', '1', '111111111111');
-INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (2, 'Jacobo', 'Hirsch', 'Rodriguez', '2001-01-01', 'mexicana', 'Colima', 'JEAF771012HMCRGR08', 'M', '32248250196', 'jacobohirsch@gmail.com', '1', '111111111111');
-INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (3, 'Andrea', 'Espindola', 'Gomez', '2002-01-01', 'mexicana', 'CDMX', 'AEAF771012HMCRGR08', 'F', '5539750429', 'alegomez@gmail.com', '1', '111111111111');
+-- usuario
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (1, 'Fernanda', 'Romo', 'Alarcon', '2002-09-09', 'mexicana', 'Jalisco', 'FEAF771012HMCRGR08', 'F', '3225987425', 'fernandaeliromo@gmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (2, 'Jacobo', 'Hirsch', 'Rodriguez', '2001-01-01', 'mexicana', 'Colima', 'JEAF771012HMCRGR08', 'M', '3224825016', 'jacobohirsch@gmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (3, 'Andrea', 'Espindola', 'Gomez', '2002-01-01', 'mexicana', 'CDMX', 'AEAF771012HMCRGR08', 'F', '5539750429', 'alegomez56@gmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (4, 'Santiago', 'Chavez', 'Unzueta', '2001-10-25', 'mexicana', 'Jalisco', 'SAML781110MTSLRN02', 'M','3314567893', 'santi.chava@gmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (5, 'Javier', 'Morales', 'Garcia', '2002-05-12', 'mexicana', 'Nayarit', 'JEAT773012HMCRGR08', 'M', '4423563267', 'javi_catlover@hotmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (6, 'Mariana', 'Montemayor', 'Arreola', '1999-12-27', 'mexicana', 'Nayarit', 'MMA4773012JMRGR087', 'F', '1753063213', 'marimar@hotmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (7, 'Alejandro', 'Flores', 'Martinez', '2003-08-30', 'mexicana', 'Guanajuato', 'AFM4723010JGNJ0879', 'M', '1954063112', 'flores.alex@yahoo.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (8, 'Alejandra', 'Caballero', 'Ramírez', '19978-02-19', 'mexicana', 'Tamaulipas', 'ACR3416782TMLPS892', 'F', '7814678354', 'alecaballero11@gmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (9, 'Martin', 'Salazar', 'Wong', '2001-11-23', 'mexicana', 'Sonora', 'MARE660831MMSNJL09', 'M', '6673231378', 'martinpada89@gmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (10, 'Carla', 'Cicero', 'Camacho', '2001-01-09', 'mexicana', 'Oaxaca', 'CATC650228MMCMRR03', 'F', '3322560999', 'carlacicerocamacho@yahoo.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (11, 'Karen', 'Navarro', 'Arroyo', '2003-07-11', 'mexicana', 'Baja California', 'NIAM690918HMSVLN01', 'F', '4545673430', 'karennarroyo@gmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (12, 'Jonathan', 'Aurora', 'Hernandez', '1980-06-31', 'mexicana', 'Colima', 'AUDJ950903HMSDMS09', 'M', '2269245820', 'jonasbrother@hotmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (13, 'Davide', 'Dunne', 'Sanchez', '2003-02-28', 'mexicana', 'Chiapas', 'LUDA510328HMCZZN04', 'M', '3378767972', 'daviddddddd@yahoo.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (14, 'Diana', 'Mirante', 'Solares', '1989-12-03', 'mexicana', 'Jalisco', 'MAAC840907MOCRNT03', 'F', '2264510931', 'mirantesolares@gmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (15, 'Ximena', 'Oseguera', 'Morales', '1972-09-17', 'mexicana', 'Oaxaca', 'OAFE761112MDFCRL01', 'F', '1788346252', 'morita_xime@hotmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (16, 'Susana', 'Perez', 'Montollina', '1983-11-21', 'mexicana', 'Guanajuato', 'SAGL780715MGRLRT07', 'F', '2458264917', 'gummmybear@gmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (17, 'Enrique', 'Suarez', 'Pedregal', '1955-07-08', 'mexicana', 'CDMX', 'SAAJ570618HMSLLS04', 'M', '2222333769', 'spamdesuape@hotmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (18, 'Camilo', 'Corch', 'Gonzalez', '1997-12-02', 'mexicana', 'Tamaulipas', 'CAGY810615MMSMRL08', 'M', '3334920204', 'ca_corch@hotmail.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (19, 'Naomi', 'Hirsch', 'Espandu', '1972-05-23', 'mexicana', 'CDMX', 'HERG551124HPLRDB05', 'F', '1234534322', '@naomi.he72yahoo.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (20, 'Estebam', 'Romo', 'Americane', '2000-01-31', 'mexicana', 'Jalisco', 'RACC680702MGRYVR08', 'M', '9898956427', 'romoame31@yahoo.com', '1', '11111111111');
+INSERT INTO usuario(u_id, u_nombre, u_papellido, u_sapellido, u_fnacimiento, u_nacionalidad, u_edonacimiento, u_curp, u_genero, u_celular, u_email, u_escliente, u_access) VALUES (21, 'Benito', 'Ceja', 'Suares', '1999-01-20', 'mexicana', 'Colima', 'CASF370304MPLSNL09', 'M', '1837248023', 'cejacejita123@hotmail.com', '1', '11111111111');
 
-/*direccion*/
-INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (1, 'Mexico', 'Jalisco', 'Puerto Vallarta', 'Riberas', 'Masayas', '01430', 34, 12, 1, 111111111);
-INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (2, 'Mexico', 'Colima', 'La Gran Manzana', 'Big', 'Apple', '01938', 69, 3, 2, 111111111);
-INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (3, 'Mexico', 'Nayarit', 'Bucelife', 'Flamingos', 'Capi', '01280', 57, 12, 3, 111111111);
+-- direccion
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (1, 'Mexico', 'Jalisco', 'Puerto Vallarta', 'Riberas', 'Masayas', '01430', '34', '12', '1', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (2, 'Mexico', 'Colima', 'La Gran Manzana', 'Big', 'Apple', '01938', '69', '3', '2', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (3, 'Mexico', 'Nayarit', 'Bucelife', 'Flamingos', 'Capi', '01280', '57', '12', '3', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (4, 'Mexico', 'Jalisco', 'Puerto Vallarta', 'Riberas', 'Masayas', '01430', '34', '12', '4', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (5, 'Mexico', 'Colima', 'La Gran Manzana', 'Big', 'Apple', '01938', '69', '3', '5', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (6, 'Mexico', 'Nayarit', 'Bucelife', 'Flamingos', 'Capi', '01280', '57', '12', '6', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (7, 'Mexico', 'Jalisco', 'Puerto Vallarta', 'Riberas', 'Masayas', '01430', '34', '12', '7', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (8, 'Mexico', 'Colima', 'La Gran Manzana', 'Big', 'Apple', '01938', '69', '3', '8', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (9, 'Mexico', 'Nayarit', 'Bucelife', 'Flamingos', 'Capi', '01280', '57', '12', '9', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (10, 'Mexico', 'Jalisco', 'Puerto Vallarta', 'Riberas', 'Masayas', '01430', '34', '12', '10', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (11, 'Mexico', 'Colima', 'La Gran Manzana', 'Big', 'Apple', '01938', '69', '3', '11', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (12, 'Mexico', 'Nayarit', 'Bucelife', 'Flamingos', 'Capi', '01280', '57', '12', '12', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (13, 'Mexico', 'Jalisco', 'Puerto Vallarta', 'Riberas', 'Masayas', '01430', '34', '12', '13', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (14, 'Mexico', 'Colima', 'La Gran Manzana', 'Big', 'Apple', '01938', '69', '3', '14', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (15, 'Mexico', 'Nayarit', 'Bucelife', 'Flamingos', 'Capi', '01280', '57', '12', '15', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (16, 'Mexico', 'Jalisco', 'Puerto Vallarta', 'Riberas', 'Masayas', '01430', '34', '12', '16', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (17, 'Mexico', 'Colima', 'La Gran Manzana', 'Big', 'Apple', '01938', '69', '3', '17', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (18, 'Mexico', 'Nayarit', 'Bucelife', 'Flamingos', 'Capi', '01280', '57', '12', '18', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (19, 'Mexico', 'Jalisco', 'Puerto Vallarta', 'Riberas', 'Masayas', '01430', '34', '12', '19', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (20, 'Mexico', 'Colima', 'La Gran Manzana', 'Big', 'Apple', '01938', '69', '3', '20', '1');
+INSERT INTO direccion(d_id, d_pais, d_edo, d_ciudad, d_colonia, d_calle, d_cp, d_numext, d_numint, u_id, d_access) VALUES (21, 'Mexico', 'Nayarit', 'Bucelife', 'Flamingos', 'Capi', '01280', '57', '12', '21', '1');
 
-/*identificaciones*/
-INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (1, 1, 'INE', 1, 111);
-INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (2, 2, 'Licencia', 2, 111);
-INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (3, 3, 'Pasaporte', 3, 111);
+-- identificaciones
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (1, 1, 'INE', 1, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (2, 2, 'Licencia', 2, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (3, 3, 'Pasaporte', 3, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (4, 1, 'INE', 4, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (5, 2, 'Licencia', 5, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (6, 3, 'Pasaporte', 6, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (7, 1, 'INE', 7, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (8, 2, 'Licencia', 8, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (9, 3, 'Pasaporte', 9, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (10, 1, 'INE', 10, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (11, 2, 'Licencia', 11, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (12, 3, 'Pasaporte', 12, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (13, 1, 'INE', 13, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (14, 2, 'Licencia', 14, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (15, 3, 'Pasaporte', 15, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (16, 1, 'INE', 16, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (17, 2, 'Licencia', 17, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (18, 3, 'Pasaporte', 18, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (19, 1, 'INE', 19, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (20, 2, 'Licencia', 20, 1);
+INSERT INTO identificaciones(i_id, id_num , i_tipo, u_id, i_access) VALUES (21, 3, 'Pasaporte', 21, 1);
 
-/*empleado*/
+-- empleado
 INSERT INTO empleado(e_id, e_nombre, e_papellido, e_sapellido) VALUES (1,'Elizabeth', 'Solis','Hidalgo');
 INSERT INTO empleado(e_id, e_nombre, e_papellido, e_sapellido) VALUES (2,'Joaquin', 'Perez','Uribe');
 INSERT INTO empleado(e_id, e_nombre, e_papellido, e_sapellido) VALUES (3,'Andrea', 'Romero','Tinajero');
 
-/*historial*/
+-- historial
 INSERT INTO historial(h_id, h_arco, h_fecha, h_comentarios, u_id) VALUES (1, 'Acceso', current_date(), 'Sin comentarios', 1);
 INSERT INTO historial(h_id, h_arco, h_fecha, h_comentarios, u_id) VALUES (2, 'Cancelacion', current_date(), 'Sin comentarios', 2);
 INSERT INTO historial(h_id, h_arco, h_fecha, h_comentarios, u_id) VALUES (3, 'Rectificacion', current_date(), 'Sin comentarios', 3);
-  
+ 
